@@ -43,5 +43,7 @@ elif computer == scissors and user == 1:
     print("computer wins")
 elif computer == paper and user == 0:
     print("Computer wins")
+elif computer == game[user]:
+    print("Draw")
 else:
     print("You win")
